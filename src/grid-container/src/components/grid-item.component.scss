@@ -1,0 +1,9 @@
+:host([area]) {
+    grid-area: var(--area);
+}
+:host([row]) {
+    grid-row: var(--row);
+}
+:host([column]) {
+    grid-column: var(--column);
+}

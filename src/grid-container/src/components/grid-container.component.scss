@@ -1,0 +1,9 @@
+:host {
+    display: grid;
+}
+:host([areas]) {
+    grid-template-areas: var(--areas);
+}
+:host([gutter]) {
+    grid-gap: var(--gutter, 10px);
+}
